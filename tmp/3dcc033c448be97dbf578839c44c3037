@@ -1,0 +1,15 @@
+IF Material IS EOS Titanium Ti64
+>>
+>> THEN Volume
+>>
+>> 1000 su
+>>
+>> IF Material IS EOS StainlessSteel 17-4PH IndustryLine
+>>
+>> THEN Length x ZLength ~ 1000 x 450
+>>
+>> IF Material IS Stainless Steel 316L
+>>
+>> THEN ( Felume. 5.99) x (if(Quantity <3) then (1) else (0.95))
+>>
+>> Minimum service value is 500.00 zt
